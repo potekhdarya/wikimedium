@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 4);
+  font-size: 21px;
+  margin-top: 80px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.firstParagraph {
+  color: grey;
+  font-size: 12px;
+  margin-top: 36px;
+  margin-bottom: 52px;
+  line-height: 20px;
+}
+
+p {
+  color: rgba(0, 0, 0, 4);
+  font-size: 12px;
+  line-height: 23px;
+}
+
+img {
+  width: 1020px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flexbox;
+}
+
+ol {
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 4);
+}
+
+.content {
+  color: rgba(0, 0, 0, 4);
+  font-size: 17px;
+  line-height: 19px;
+  margin-top: 90px;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 4);
+  font-size: 17px;
+  line-height: 19px;
+  margin-bottom: 28px;
+  font-weight: bold;
+  margin-top: 64px;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 4);
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 28px;
+  margin-top: 56px;
+  font-weight: bold;
+}
+
+h4 {
+  color: rgba(0, 0, 0, 4);
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 28px;
+  margin-top: 26px;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dashed coral;
+  line-height: 20px;
+}
+
+blockquote {
+  color: rgba(0, 0, 0, 4);
+  font-size: 12px;
+  line-height: 23px;
+  font-style: italic;
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
