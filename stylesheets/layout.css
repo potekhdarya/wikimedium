@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -92,4 +92,145 @@ blockquote {
   font-style: italic;
   margin-top: 52px;
   margin-bottom: 52px;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+blockquote,
+hr {
+  width: 700px;
+  margin: 0 auto;
+}
+
+img {
+  width: 1024px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  /* картинке нужно назначать дисплей блок чтобы она реагировала на отступы, тк это особый тег */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: bold;
+}
+
+p,
+ol,
+ul,
+blockquote {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+h1 + p {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* h1 + p {
+
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed violet;
+}
+
+span {
+  background-color: violet;
+}
+
+h1 {
+  margin: 50px auto;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+h2 {
+  margin-top: 40px auto;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+h3 {
+  margin-top: 36px auto;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+h4 {
+  margin-top: 32px auto;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h5 {
+  margin-top: 28px auto;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+hr {
+  margin: 12px auto;
+  width: 1024px;
+}
+
+blockquote {
+  margin-top: 30px;
+  font-style: italic;
+  position: relative;
+}
+
+blockquote::before {
+  content: "";
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  background-color: violet;
+  top: 0;
+  left: -17px;
+  /* position: absolute; как новый слой в фигме */
+}
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p {
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 32px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 32px;
+}
+
+li {
+  margin: 10px auto;
 }
